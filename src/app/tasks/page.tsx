@@ -17,7 +17,7 @@ export default function Page() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:3002/api/employees");
+        const res = await axios.get("http://192.168.0.150:3002/api/employees");
         setData(res.data);
       } catch (error) {
         console.error("Error fetching data:", error);
