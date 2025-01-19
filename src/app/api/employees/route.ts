@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 export async function GET() {
   try {
     const response = NextResponse.json(empData);
-    response.headers.set("Access-Control-Allow-Origin", "http://localhost:3002"); 
+    response.headers.set("Access-Control-Allow-Origin", "http://192.168.0.150:3002"); 
     response.headers.set("Access-Control-Allow-Methods", "GET");
 
     return response;
