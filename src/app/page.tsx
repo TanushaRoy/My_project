@@ -17,7 +17,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("https://https://abs-w8nd.vercel.app/api/employees");
+        const res = await axios.get("https://abs-uwxi.vercel.app/api/employees");
         setData(res.data); // Assume data is an array of EmpDataProps
       } catch (error) {
         console.error("Error fetching data:", error);
