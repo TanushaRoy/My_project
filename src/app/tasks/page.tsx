@@ -17,7 +17,7 @@ export default function Page() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("https://abs-uwxi.vercel.app/api/employees");
+        const res = await axios.get("https://abs-w8nd.vercel.app//api/employees");
         setData(res.data);
       } catch (error) {
         console.error("Error fetching data:", error);
